@@ -1,7 +1,15 @@
 import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
+import CallUsWidget from './components/CallUsWidget';
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      'call-us': any;
+    }
+  }
+}
 
 export const metadata = {
   title: 'Domainstacks',
@@ -19,6 +27,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <CallUsWidget />
       </body>
     </html>
   )

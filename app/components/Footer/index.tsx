@@ -87,6 +87,9 @@ const footer = () => {
                             <Link href="/">
                                 <h3 className="text-offwhite pl-6 border-solid border-l border-footer">Terms & conditions</h3>
                             </Link>
+                            <Link href="https://1592.3cx.cloud/domainstacks" target="_blank">
+                                <h3 className="text-offwhite pl-6 border-solid border-l border-footer">Call Us</h3>
+                            </Link>
                         </div>
                     </div>
                 </div>
